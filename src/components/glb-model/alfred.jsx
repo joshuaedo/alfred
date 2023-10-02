@@ -10,9 +10,8 @@ export default function Alfred() {
     <Canvas
       camera={{ position: [2, 0, 12.25], fov: 15 }}
       style={{
-        backgroundColor: "#111a21",
-        width: "25rem",
-        height: "25rem",
+        width: "220px",
+        height: "150px",
       }}
     >
       <ambientLight intensity={1.25} />

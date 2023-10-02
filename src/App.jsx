@@ -7,8 +7,6 @@ export default function App() {
   const [modal, setModal] = useState({ active: false, index: 0 });
 
   return (
-    <>
-      {/* <Alfred /> */}
       <main className="p-24">
         <div className="grid grid-cols-1 gap-y-4 md:gap-y-10 pb-[9vh] md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center">
           {tasks.map((task, index) => {
@@ -20,6 +18,5 @@ export default function App() {
         </div>
         <Modal modal={modal} tasks={tasks} />
       </main>
-    </>
   );
 }

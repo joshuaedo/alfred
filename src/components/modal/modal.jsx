@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { motion } from "framer-motion";
 import styles from "./modal.module.css";
 import { HelpCircle } from "lucide-react";
+// import Alfred from "../glb-model/alfred";
 
 const scaleAnimation = {
   initial: { scale: 0, x: "-50%", y: "-50%" },
@@ -111,6 +112,7 @@ export default function Modal({ modal, tasks }) {
         initial="initial"
         animate={active ? "enter" : "closed"}
       >
+        {/* <Alfred /> */}
         <img src="/model.png" height={800} width={800} />
       </motion.div>
     </>
