@@ -76,7 +76,7 @@ export default function Modal({ modal, tasks }) {
         variants={scaleAnimation}
         initial="initial"
         animate={active ? "enter" : "closed"}
-        className={`hidden md:flex ${styles.modalContainer}`}
+        className={`flex ${styles.modalContainer}`}
       >
         <div
           style={{ top: index * -100 + "%" }}
