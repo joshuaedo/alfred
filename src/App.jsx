@@ -1,7 +1,9 @@
+import Alfred from "./components/alfred";
+
 function App() {
   return (
     <>
-      <p>sup</p>
+      <Alfred />
     </>
   );
 }
